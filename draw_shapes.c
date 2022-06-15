@@ -26,3 +26,11 @@ void print_triangle(int leftCol, int size)
   }
 }
 
+//Prints an arrow based on a specific height that determines size of square and triangle
+void print_arrow(int triangleleftCol, int triangleSize, int squareleftCol, int squareSize) {
+    
+    print_triangle(triangleleftCol, triangleSize);
+    print_square(squareleftCol, squareSize);
+}
+    
+
